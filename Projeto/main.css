@@ -39,7 +39,7 @@ section{
     font-size: 1em;
 }
 section.normal{
-    background-color: #77b8e3;
+    background-color: #98c4e1;
     color: black;
 }
 
@@ -86,7 +86,6 @@ ul{
 
 ul > li{
     font-variant: small-caps;
-    colo
 }
 
 spam{
@@ -105,4 +104,63 @@ nav a {
 
 nav a:hover{
    font-weight: bolder;
+}
+
+#head{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.image_logo{
+    width: 100;
+    height: 100px;
+}
+
+.noticia{
+    padding: 10px;
+    margin: 10px;
+    width: 400px;
+    height: 300px;
+}
+
+.noticias1, .noticias2{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    overflow: hidden;
+    padding: 10px;
+    margin: 10;
+}
+
+
+a{
+    color:#fff;
+   
+}
+
+body{
+    background-color:#98c4e1;
+}
+h1{
+    color: #fff;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    padding: 10px;
+    margin: 0;
+   
+}
+
+.not1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.not1 > p{
+    color: #fff;
 }
