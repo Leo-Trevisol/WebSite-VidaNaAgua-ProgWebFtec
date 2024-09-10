@@ -38,6 +38,14 @@ section{
     padding-left: 30px;
     font-size: 1em;
 }
+
+.home{
+    padding-top: 4vh;
+    padding-bottom:3vh;
+    line-height: 2em;
+    padding-left: 30px;
+    font-size: 1em;
+}
 section.normal{
     background-color: #98c4e1;
     color: black;
