@@ -1,140 +1,140 @@
-*{
+/* CSS Global */
+* {
     margin: 0px;
     padding: 0px;
 }
 
-body{
+body {
     background-color: darkgrey;
     min-width: 400px;
 }
 
-header{
+header {
     background-color: black;
     color: #fff;
     text-align: center;
 }
 
-header > h1{
+header > h1 {
     padding-top: 30px;
     font-size: 4vw;
     font-variant: small-caps;
 }
 
-header>p{
+header > p {
     padding-bottom: 30px;
     font-size: 2vw;
     font-variant: small-caps;
 }
 
-header a{
+header a {
     text-decoration: none;
     color: #fff;
 }
 
-section{
+section {
     padding-top: 4vh;
-    padding-bottom:8vh;
+    padding-bottom: 8vh;
     line-height: 2em;
     padding-left: 30px;
     font-size: 1em;
 }
 
-.home{
+.home {
     padding-top: 4vh;
-    padding-bottom:3vh;
+    padding-bottom: 3vh;
     line-height: 2em;
     padding-left: 30px;
     font-size: 1em;
 }
-section.normal{
+
+section.normal {
     background-color: #98c4e1;
     color: black;
 }
 
-section.imagem{
+section.imagem {
     background-color: rgba(0, 0, 0, 0.374);
     color: #fff;
     box-shadow: inset 6px 6px 6px rgba(0, 0, 0, 0.653);
     background-size: cover;
-    height: 40%;
+    height: 400px;
     background-attachment: fixed;
-    
-
 }
 
-section.imagem > p{
+section.imagem > p {
     background-color: rgba(0, 0, 0, 0.184);
     display: inline-block;
     padding: 5px;
     padding-left: 10px;
     text-shadow: 1px 1px 2px black;
-    font-size: 1vw;
-   
 }
 
-section>p{
+section > p {
     padding-bottom: 1em;
     font-size: larger;
 }
 
-#img01{
+#img01 {
     background-image: url('imgs/capa.png');
     background-position: left center;
 }
-#img02{
+
+#img02 {
     background-image: url('imgs/capa1.jpg');
     background-position: right center;
 }
 
-#img03{
+#img03 {
     background-image: url('imgs/capa2.jpg');
     background-position: right center;
 }
 
-#img04{
+#img04 {
     background-image: url('imgs/capa3.jpg');
     background-position: right center;
 }
 
-#img05{
+#img05 {
     background-image: url('imgs/capa4.jpg');
     background-position: right center;
 }
 
-#img06{
+#img06 {
     background-image: url('imgs/capa7.jpg');
     background-position: right center;
 }
 
-#img07{
+#img07 {
     background-image: url('imgs/capa6.jpg');
     background-position: right center;
 }
 
-#img08{
+#img08 {
     background-image: url('imgs/capa5.jpg');
     background-position: right center;
 }
 
-h2{
+/* Tipografia e outros elementos */
+h2 {
     padding-bottom: 1%;
 }
 
-ul{
+ul {
     padding: 1%;
 }
 
-ul > li{
+ul > li {
     font-variant: small-caps;
     font-size: 20px;
 }
 
-ol > li, ol, ul{
+ol > li, ol, ul {
     font-variant: small-caps;
     font-size: 20px;
 }
 
-spam{
+spam {
     font-weight: bold;
 }
 
@@ -142,27 +142,27 @@ nav {
     background-color: #333;
     padding: 10px;
 }
+
 nav a {
     color: white;
     text-decoration: none;
     margin-right: 15px;
 }
 
-nav a:hover{
-   font-weight: bolder;
+nav a:hover {
+    font-weight: bolder;
 }
 
-#head{
+#head {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-.image_logo{
-    width: 100;
+.image_logo {
+    width: 100px;
     height: 100px;
 }
-
 .noticia {
     width: 100%;
     height: auto; 
@@ -180,45 +180,25 @@ nav a:hover{
     max-width: 400px;
     box-sizing: border-box;
 }
-a{
-    color:#fff;
-   
+body {
+    background-color: #98c4e1;
 }
 
-body{
-    background-color:#98c4e1;
-}
-h1{
+h1 {
     color: #fff;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    overflow: hidden;
     padding: 10px;
     margin: 0;
-   
 }
-.not1 > p{
+
+.not1 > p {
     color: #fff;
 }
 
-.video1{
-    display: flex;
-    align-items: center;
-    justify-content:center;
-    overflow: hidden;
-    padding-top: 30px;
-    margin-top:50x;
-    flex-direction: column;
-    gap: 10px;
-}
-
-.video1 > p{
-    color: #fff;
-}
-
-footer{
+footer {
     background-color: black;
     color: #fff;
     padding: 10px;
@@ -226,7 +206,4 @@ footer{
     display: flex;
     justify-content: center;
     font-variant: small-caps;
-}
-.sombra{
-    text-shadow:0.1em 0.1em 0.2em black;
 }
