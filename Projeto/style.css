@@ -3,12 +3,6 @@
     padding: 0px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
-
-body{
-    background-color: darkgrey;
-    min-width: 400px;
-}
-
 .container {
     display: flex;
     flex-direction: row;
@@ -70,7 +64,7 @@ header a{
 
 section{
     padding-top: 4vh;
-    padding-bottom:8vh;
+    padding-right: 30px;
     line-height: 2em;
     padding-left: 30px;
     font-size: 1em;
@@ -118,36 +112,14 @@ section>p{
     background-image: url('imgs/capa.png');
     background-position: left center;
 }
-#img02{
-    background-image: url('imgs/capa1.jpg');
-    background-position: right center;
-}
-
 #img03{
     background-image: url('imgs/capa2.jpg');
     background-position: right center;
 }
-
-#img04{
-    background-image: url('imgs/capa3.jpg');
-    background-position: right center;
-}
-
-#img05{
-    background-image: url('imgs/capa4.jpg');
-    background-position: right center;
-}
-
 #img06{
     background-image: url('imgs/capa7.jpg');
     background-position: right center;
 }
-
-#img07{
-    background-image: url('imgs/capa6.jpg');
-    background-position: right center;
-}
-
 #img08{
     background-image: url('imgs/capa5.jpg');
     background-position: right center;
@@ -229,6 +201,7 @@ a{
 
 body{
     background-color:#98c4e1;
+    min-width: 400px;
 }
 h2{
     color: #fff;
@@ -270,7 +243,7 @@ h2{
 }
 
 footer{
-    background-color: black;
+    background-color: grey;
     color: #fff;
     padding: 10px;
     margin-top: 10px;
