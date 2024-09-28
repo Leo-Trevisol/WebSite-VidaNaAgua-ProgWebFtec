@@ -1,11 +1,48 @@
 *{
     margin: 0px;
     padding: 0px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 body{
     background-color: darkgrey;
     min-width: 400px;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+    
+    flex-wrap: wrap;
+    justify-content: center; 
+}
+
+.card {
+    background-color: white;
+    padding: 20px;
+    width: 300px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+    text-align: center;
+    transition: transform 0.3s ease; 
+    margin: 0px 70px 0px 70px;
+}
+
+
+.card h2 {
+    margin-bottom: 10px;
+    color: #333;
+    font-variant: small-caps;
+}
+
+.card p {
+    color: #666;
+}
+
+.card:hover {
+    transform: translateY(-5px); /* Eleva o card */
 }
 
 header{
@@ -146,6 +183,7 @@ nav a {
     color: white;
     text-decoration: none;
     margin-right: 15px;
+    font-size: 2vh;
 }
 
 nav a:hover{
@@ -162,15 +200,19 @@ nav a:hover{
     width: 100;
     height: 100px;
 }
-
-.noticia {
-    width: 100%;
-    height: auto; 
+.noticia{
+    margin: 10px;
+    width: 400px;
+    height: 300px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
 }
 .noticias1, .noticias2 {
     display: flex;
+    align-items: center;
+    justify-content:center;
+    overflow: hidden;
     flex-wrap: wrap;
-    justify-content: space-around;
     padding: 10px;
 }
 
@@ -188,7 +230,7 @@ a{
 body{
     background-color:#98c4e1;
 }
-h1{
+h2{
     color: #fff;
     display: flex;
     flex-direction: row;
@@ -197,10 +239,18 @@ h1{
     overflow: hidden;
     padding: 10px;
     margin: 0;
+    font-variant: small-caps;
    
 }
 .not1 > p{
     color: #fff;
+}
+
+.video{
+    width: 50vw;
+    height: 50vh;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
 }
 
 .video1{
@@ -216,6 +266,7 @@ h1{
 
 .video1 > p{
     color: #fff;
+    font-size: 3vh;
 }
 
 footer{
@@ -229,4 +280,5 @@ footer{
 }
 .sombra{
     text-shadow:0.1em 0.1em 0.2em black;
+    font-size: 1.5vh;
 }
