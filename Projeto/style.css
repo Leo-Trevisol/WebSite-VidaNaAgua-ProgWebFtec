@@ -80,6 +80,8 @@ section{
 section.normal{
     background-color: #98c4e1;
     color: black;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
 }
 
 section.imagem{
@@ -117,7 +119,7 @@ section>p{
     background-position: right center;
 }
 #img06{
-    background-image: url('imgs/capa7.jpg');
+    background-image: url('imgs/capa4.jpg');
     background-position: right center;
 }
 #img08{
@@ -131,6 +133,7 @@ h2{
 
 ul{
     padding: 1%;
+    list-style-type: disc;
 }
 
 ul > li{
@@ -141,6 +144,11 @@ ul > li{
 ol > li, ol, ul{
     font-variant: small-caps;
     font-size: 20px;
+}
+
+ol > li{
+    color: #fff;
+    font-size: 23px;
 }
 
 spam{
