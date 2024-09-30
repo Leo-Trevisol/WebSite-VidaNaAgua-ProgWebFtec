@@ -30,9 +30,19 @@
     color: #333;
     font-variant: small-caps;
 }
+.card a {
+    margin-bottom: 10px;
+    color: #333;
+    font-variant: small-caps;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.5rem;
+    display:block;
+}
 
 .card p {
     color: #666;
+    margin-top: 10px;
 }
 
 .card:hover {
@@ -62,7 +72,7 @@ header a{
     color: #fff;
 }
 
-section{
+section, figure{
     padding-top: 4vh;
     padding-right: 30px;
     line-height: 2em;
@@ -84,7 +94,7 @@ section.normal{
     border-radius: 10px;
 }
 
-section.imagem{
+figure.imagem{
     background-color: rgba(0, 0, 0, 0.374);
     color: #fff;
     box-shadow: inset 6px 6px 6px rgba(0, 0, 0, 0.653);
@@ -95,7 +105,7 @@ section.imagem{
 
 }
 
-section.imagem > p{
+figure.imagem > p{
     background-color: rgba(0, 0, 0, 0.184);
     display: inline-block;
     padding: 5px;
@@ -181,7 +191,7 @@ nav a:hover{
     height: 100px;
 }
 .noticia{
-    margin: 10px;
+    margin:10px;
     width: 400px;
     height: 300px;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
@@ -193,7 +203,7 @@ nav a:hover{
     justify-content:center;
     overflow: hidden;
     flex-wrap: wrap;
-    padding: 10px;
+    padding:10px;
 }
 
 .not1 {
@@ -262,4 +272,7 @@ footer{
 .sombra{
     text-shadow:0.1em 0.1em 0.2em black;
     font-size: 1.5vh;
+}
+.sombrali{
+    text-shadow:0.1em 0.1em 0.2em black;
 }
